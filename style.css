@@ -14,6 +14,24 @@
     padding:2% 1% 1%;
     /* top right-left bottom */
 }
+/* Responsive Calculator Container  */
+@media screen and (max-width:700px){
+    .container{
+        width:70%;
+    }
+}
+
+@media screen and (max-width:500px){
+    .container{
+        width:80%;
+    }
+}
+
+@media screen and (max-width:376px){
+    .container{
+        width:97%;
+    }
+}
 
 /* Calculator Head  */
 .head{
@@ -34,7 +52,7 @@
     margin:auto;
     margin-top:1%;
     background-color:#F5F5F5;
-    border-radius: 3%;
+    border-radius: 6px;
 }
 
 
@@ -47,7 +65,7 @@
     margin-top:1%;
     /* row-gap: 1px;
     column-gap:1px; */
-    gap:1px 1px;  
+    gap:2px 2px;  
 
     grid-template-columns: 1fr 1fr 1fr 1fr;
     /* grid-template-rows: 1fr 1fr 1fr 1fr 1fr; */
@@ -58,4 +76,32 @@
 
 .sign-box{
     background-color: white;
+}
+
+/* 0th box set up   */
+#zero-box{
+    /* background-color: #000000; */
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+
+/* Button Style  */
+
+button{
+    /*  Text Under Button Tag Autoatically are centered vertically and horizontally */
+    height:100%;
+    width:100%;
+    background-color: #FFFFFF;
+    border:0.5px solid white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40PX;
+    font-weight: 400;
+}
+
+
+/* Do red Colour  */
+.bg-red{
+    background-color:#C14444;
+    border:1px solid #C14444;
 }
