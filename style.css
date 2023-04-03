@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+.container{
+    margin:auto;
+    width:55%;
+    background-color: #E2E0E0;
+    margin-top: 3%;
+    height:85vh;
+    border-radius:2%;
+    padding:2% 1% 1%;
+    /* top right-left bottom */
+}
+
+/* Calculator Head  */
+.head{
+    width:96%;
+    height:12%;
+    margin:auto;
+    background-color:#000000;
+    color:white;
+    text-align: center;
+    padding-top:1.5%;
+}
+
+/* Display-Screen  */
+
+.display{
+    width:96%;
+    height:15%;
+    margin:auto;
+    margin-top:1%;
+    background-color:#F5F5F5;
+    border-radius: 3%;
+}
+
+
+/* Handle Sign-Box Grid Container */
+.grid-container{
+    display:grid;
+    width:96%;
+    height:70%;
+    margin:auto;
+    margin-top:1%;
+    /* row-gap: 1px;
+    column-gap:1px; */
+    gap:1px 1px;  
+
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr 1fr 1fr 1fr; */
+    grid-template-rows:repeat(5, 1fr);
+    
+
+}
+
+.sign-box{
+    background-color: white;
+}
