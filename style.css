@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing:border-box;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .container{
@@ -41,7 +42,7 @@
     background-color:#000000;
     color:white;
     text-align: center;
-    padding-top:1.5%;
+    padding-top:10px;
 }
 
 /* Display-Screen  */
@@ -53,6 +54,16 @@
     margin-top:1%;
     background-color:#F5F5F5;
     border-radius: 6px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    
+}
+
+#screen{
+    text-align: right;
+    /* overflow: auto; */
+    word-break: break-all;
 }
 
 
@@ -76,7 +87,16 @@
 
 .sign-box{
     background-color: white;
+    /* cursor: pointer; */
 }
+
+ .sign-box:hover {
+    cursor: pointer;
+    transform: scale(1.03);
+    border:1px solid blue;
+    border-radius: 5px;
+}
+
 
 /* 0th box set up   */
 #zero-box{
@@ -97,6 +117,7 @@ button{
     font-family: 'Courier New', Courier, monospace;
     font-size: 40PX;
     font-weight: 400;
+    cursor: pointer;
 }
 
 

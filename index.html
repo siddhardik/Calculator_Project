@@ -14,30 +14,35 @@
             <h1>CALCULATOR</h1>
         </div>
 
-        <div class="display">
+        <div class="display" >
             <!-- This is display Screen  -->
+            <h2 id="screen"></h2>
         </div>
 
         <div class="grid-container">
-            <div class="sign-box"><button type="button">AC</button></div>
-            <div class="sign-box"><button type="button"> +/-</button></div>
-            <div class="sign-box"><button type="button"> %</button></div>
-            <div class="sign-box"><button type="button" class="bg-red"> /</button></div>
-            <div class="sign-box"><button type="button"> 7</button></div>
-            <div class="sign-box"><button type="button"> 8</button></div>
-            <div class="sign-box"><button type="button"> 9</button></div>
-            <div class="sign-box"><button type="button" class="bg-red"> *</button></div>
-            <div class="sign-box"><button type="button"> 4</button></div>
-            <div class="sign-box"><button type="button"> 5</button></div>
-            <div class="sign-box"><button type="button"> 6</button></div>
-            <div class="sign-box"><button type="button" class="bg-red"> -</button></div>
-            <div class="sign-box"><button type="button"> 1</button></div>
-            <div class="sign-box"><button type="button"> 2</button></div>
-            <div class="sign-box"><button type="button"> 3</button></div>
-            <div class="sign-box"><button type="button" class="bg-red"> +</button></div>
-            <div class="sign-box" id="zero-box"><button type="button"> 0</button></div>
-            <div class="sign-box"><button type="button"> .</button></div>
-            <div class="sign-box"><button type="button"> =</button></div>
+            <div class="sign-box"><button type="button" btn-value="AC">AC</button></div>
+            <div class="sign-box"><button type="button" btn-value="%">%</button></div>
+            <div class="sign-box"><button type="button" btn-value="/">/</button></div>
+            <div class="sign-box"><button type="button" class="bg-red" btn-value="←">←</button></div>
+
+            <div class="sign-box"><button type="button" btn-value="7">7</button></div>
+            <div class="sign-box"><button type="button" btn-value="8">8</button></div>
+            <div class="sign-box"><button type="button" btn-value="9">9</button></div>
+            <div class="sign-box"><button type="button" class="bg-red" btn-value="*">*</button></div>
+
+            <div class="sign-box"><button type="button" btn-value="4">4</button></div>
+            <div class="sign-box"><button type="button" btn-value="5">5</button></div>
+            <div class="sign-box"><button type="button" btn-value="6">6</button></div>
+            <div class="sign-box"><button type="button" class="bg-red" btn-value="-">-</button></div>
+
+            <div class="sign-box"><button type="button" btn-value="1"> 1</button></div>
+            <div class="sign-box"><button type="button" btn-value="2"> 2</button></div>
+            <div class="sign-box"><button type="button" btn-value="3"> 3</button></div>
+            <div class="sign-box"><button type="button" class="bg-red" btn-value="+"> +</button></div>
+
+            <div class="sign-box" id="zero-box"><button type="button" btn-value="0"> 0</button></div>
+            <div class="sign-box"><button type="button" btn-value="."> .</button></div>
+            <div class="sign-box"><button type="button" btn-value="="> =</button></div>
         </div>
         
 
@@ -47,6 +52,6 @@
    
 
 
-    
+    <script type ="text/javascript" src="index.js"></script>
 </body>
 </html>
